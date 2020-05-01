@@ -263,6 +263,9 @@ Dari tabel diplot scatter di excell dan kelas yang berbeda diberi warna berbeda 
     Jaringan Neuron = 2-3-2-1
     \end{equation}
     
+Gambar yang mendukung dapat dilihat dibawah ini
+![alt text](/3a.jpg)
+
 ### b.
 Dari tabel diplot scatter di excell dan kelas yang berbeda diberi warna berbeda untuk memberikan bantuan visual dari data set untuk 
     memilih data set default di website. Dari grafik disimpulkan bahwa data terpisah secara garis linear sehingga di website digunakan 
@@ -274,6 +277,9 @@ Dari tabel diplot scatter di excell dan kelas yang berbeda diberi warna berbeda 
     Jaringan Neuron = 2-2-2-3-1
     \end{equation}
     
+Gambar yang mendukung dapat dilihat dibawah ini
+![alt text](/3b.jpg)
+    
 ### c.
 Dari tabel diplot scatter di excell dan kelas yang berbeda diberi warna berbeda untuk memberikan bantuan visual dari data set untuk 
     memilih data set default di website. Dari grafik disimpulkan bahwa data terpisah oleh lingkaran sehingga di website digunakan data 
@@ -284,6 +290,9 @@ Dari tabel diplot scatter di excell dan kelas yang berbeda diberi warna berbeda 
     \begin{equation}
     Jaringan Neuron = 2-3-2-1
     \end{equation}
+
+Gambar yang mendukung dapat dilihat dibawah ini
+![alt text](/3c.jpg)
 
 ### d.
 Kaitan antara arsitektur yang diperlukan dengan fungsi ANN memisahkan data dengan baik adalah. Input dari ANN bergantung pada jumlah 
