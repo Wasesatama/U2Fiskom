@@ -131,13 +131,13 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     
     \begin{equation}
     \label{eqn:gerr}
-    \dot{\theta}^2 - frac{g\cos{\theta}}{l} = \frac{T}{lm}
+    \dot{\theta}^2 - \frac{g\cos{\theta}}{l} = \frac{T}{lm}
     \end{equation}
     
     Sementara, untuk $\theta$
     
     \begin{equation}
-    a_{\theta}=r\ddot{\theta} - 2\dot{r}\dot{\theta} = 
+    a_{\theta}=r\ddot{\theta} - 2\dot{r}\dot{\theta}
     \end{equation}
     
     \begin{equation}
@@ -152,17 +152,50 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     \end{equation}
     
     \begin{equation}
-    \label{gerthe}
+    \label{eqn:gerthe}
     \ddot{\theta}+\frac{g}{l}\sin{\theta}=0
     \end{equation}
     
 ### b.
     
+    Untuk kasus ${\theta}$ kecil maka
     
+    \begin{equation}
+    \sin {\theta} = {\theta}
+    \end{equation}
     
+    Dari persamaan \eqref{eqn:gerthe}, maka berlaku
     
+    \begin{equation}
+    \ddot{\theta} = -\frac{g}{l} \theta
+    \end{equation}
     
+    Dimisalkan $\omega = \sqrt{\frac{g}{l}}$
     
+    Maka
+    
+    \begin{equation}
+    \label{eqn:9}
+    \ddot{\theta} = -\omega^2 \theta
+    \end{equation}
+    
+    Yang solusi dari \eqref{eqn:9} adalah
+    
+    \begin{equation}
+    \theta(t) = \theta_0 cos(\omega t + \phi)
+    \end{equation}
+    
+    dengan $\phi = fasa awal$
+    
+    Untuk nilai T,
+    
+    \begin{equation}
+    T = \frac{2\pi}{\omega} = 2\pi \sqrt{\frac{g}{l}}
+    \end{equation}
+    
+### c.
+
+    Menggunakan algoritma numerik euler persamaan differensial \eqref{eqn:gerthe}
 
 
 
