@@ -35,7 +35,7 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     \end{equation}
     Sehingga didapat persamaan gerak x adalah
     \begin{equation}
-    \label{eqn:dodox}
+    \label{dodox}
     \ddot{x} + \left( \frac{3 \pi \eta D}{m} \right) \dot{x} - \left( \frac{1}{l^2} \right) (\dot{x}^2 + \dot{y}^2) x + \left( \frac{g}{l^2} \right) xy = 0
     \end{equation}
     
@@ -46,11 +46,11 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     \end{equation}
     Sehingga didapat persamaan gerak y adalah
     \begin{equation}
-    \label{eqn:dodoy}
+    \label{dodoy}
     \ddot{y} + \left( \frac{3 \pi \eta D}{m} \right) \dot{y} + \left( \frac{1}{l^2} \right) (\dot{x}^2 + \dot{y}^2) y - \left( \frac{g}{l^2} \right) y^2 = -g.
     \end{equation}
     
-### b.
+## b.
 
     Makna dari masing-masing suku pada persamaan gerak adalah
     
@@ -61,7 +61,7 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     
     Semua suku dinyatakan dalam satuan per massa
     
-### c.
+## c.
 
     Ketika tidak ada gesekan udara maka fluida yang dilewati merupakan fluida yang inviscid artinya viskositas $\eta$ = 0.
     Sehingga persamaan \eqref{dodox} dan \eqref{dodoy} dapat ditulis sebagai,
@@ -78,7 +78,7 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     \ddot{y} + \left( \frac{1}{l^2} \right) (\dot{x}^2 + \dot{y}^2) y - \left( \frac{g}{l^2} \right) y^2 = -g.
     \end{equation}
     
-### d.
+## d.
 
     Untuk bandul dengan simpangan kecil dan tanpa gesekan maka didapatkan bahwa
     
@@ -92,7 +92,7 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     \sin{\theta}=\frac{x}{1}=\theta
     \end{equation}
     
-    Sehingga persamaan \eqref{dodox} dan \eqref{dodoy} dapat ditulis sebagai,
+    Sehingga persamaan \eqref{dodox2} dan \eqref{dodoy2} dapat ditulis sebagai,
     
     \begin{equation}
     \label{dodox3}
@@ -106,7 +106,26 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     
 ## No.2
     
+### a.
 
+    Menggunakan koordinat polar maka dilakukan analisis hukum newton dua untuk masing-masing koordinag $r$ dan $\theta$
+    
+    Untuk $r$
+    
+    \begin{equation}
+    \label{eqn:fr}
+    \sum {F_r} = -mg\cos{\theta} + T = ma_r = m(\ddot{r} - r\dot{\theta}^2)
+    \end{equation}
+    
+    Kemudian diterapkan bahwa $\ddot{r}=0$ dan $r=l$ sehingga didapat,
+    
+    \begin{equation}
+    -mg \cos{\theta} + T = -ml\dot{\theta}^2 
+    end{equation}
+    
+    dan
+    
+    \begin{equation}
 
 
 
