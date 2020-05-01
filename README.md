@@ -220,7 +220,52 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     
 ### d.
     
+    Program dari algoritma euler ini dalam bahasa C++ adalah
 
 
+## No.3
 
+### a.
+    Dari tabel diplot scatter di excell dan kelas yang berbeda diberi warna berbeda untuk memberikan bantuan visual dari data set untuk 
+    memilih data set default di website. Dari grafik disimpulkan bahwa data terpisah secara garis lurus konstan sehingga di website 
+    digunakan data set kanan atas, dimana data biru dan oranye terpisah secara garis lurus juga. Kemudian $N_1$ atau feature dipilih 
+    $X_1$ dan $X_2$ karena dalam data ada dua pengukuran $x$ dan $y$. Dipilih fungsi aktivasi $tanh(x)$ Dengan langkah ini dicari 
+    jaringan neuron yang sesuai menggunakan website dan didapat
+    \begin{equation}
+    Jaringan Neuron = 2-3-2-1
+    \end{equation}
+    
+### b.
+    Dari tabel diplot scatter di excell dan kelas yang berbeda diberi warna berbeda untuk memberikan bantuan visual dari data set untuk 
+    memilih data set default di website. Dari grafik disimpulkan bahwa data terpisah secara garis linear sehingga di website digunakan 
+    data set kiri bawah, dimana data biru dan oranye terpisah secara linear juga. Kemudian $N_1$ atau feature dipilih $X_1$ dan $X_2$ 
+    karena dalam data ada dua pengukuran $x$ dan $y$. Dipilih fungsi aktivasi $tanh(x)$ Dengan langkah ini dicari jaringan neuron yang 
+    sesuai menggunakan website dan didapat
+    \begin{equation}
+    Jaringan Neuron = 2-2-2-3-1
+    \end{equation}
+    
+### c.
+    Dari tabel diplot scatter di excell dan kelas yang berbeda diberi warna berbeda untuk memberikan bantuan visual dari data set untuk 
+    memilih data set default di website. Dari grafik disimpulkan bahwa data terpisah oleh lingkaran sehingga di website digunakan data 
+    set kiri atas, dimana data biru dan oranye analog terpisah secara lingkaran juga. Kemudian $N_1$ atau feature dipilih $X_1$ dan 
+    $X_2$ karena dalam data ada dua pengukuran $x$ dan $y$. Dipilih fungsi aktivasi $tanh(x)$ Dengan langkah ini dicari jaringan neuron 
+    yang sesuai menggunakan website dan didapat
+    \begin{equation}
+    Jaringan Neuron = 2-3-2-1
+    \end{equation}
 
+### d.
+    Kaitan antara arsitektur yang diperlukan dengan fungsi ANN memisahkan data dengan baik adalah. Input dari ANN bergantung pada jumlah 
+    parameter dan pengukuran dan Output dari ANN untuk skema forward adalah satu sehingga dalam kasus a-c yang berperan dalam memisahkan 
+    data adalah hiden layer atau neuron antara input dan output. Semakin banyak jumlah hidden layer maka semakin baik ANN akan 
+    memberikan koneksi (pembobotan) antara data satu dan data lainnya. Tetapi lebih memakan resource komputasi untuk melatih semua 
+    neuron sehingga pemisahan berlangsung lama. Selain itu semakin banyak hidden layer neuron semakin memungkinkan pembobotan yang 
+    kompleks. Semakin sedikit jumlah hidden layer maka semakin efisien jaringan ANN, ANN dengan hidden layer sedikit biasanya digunakan 
+    untuk klasifikasi yang linear dan "mudah" dipisahkan. 
+    
+    Perlu dibatasi arsitektur ANN yang paling sederhana untuk menghindari overfitting. Yaitu ketika jaringan ANN kekurangan 
+    informasi/data untuk melakukan training neuron. Akhirnya pembobotan yang terjadi pada data tidak tepat.
+    
+    
+ ### No.4
