@@ -50,7 +50,7 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     \ddot{y} + \left( \frac{3 \pi \eta D}{m} \right) \dot{y} + \left( \frac{1}{l^2} \right) (\dot{x}^2 + \dot{y}^2) y - \left( \frac{g}{l^2} \right) y^2 = -g.
     \end{equation}
     
-## b.
+### b.
 
     Makna dari masing-masing suku pada persamaan gerak adalah
     
@@ -61,7 +61,7 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     
     Semua suku dinyatakan dalam satuan per massa
     
-## c.
+### c.
 
     Ketika tidak ada gesekan udara maka fluida yang dilewati merupakan fluida yang inviscid artinya viskositas $\eta$ = 0.
     Sehingga persamaan \eqref{dodox} dan \eqref{dodoy} dapat ditulis sebagai,
@@ -78,18 +78,18 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     \ddot{y} + \left( \frac{1}{l^2} \right) (\dot{x}^2 + \dot{y}^2) y - \left( \frac{g}{l^2} \right) y^2 = -g.
     \end{equation}
     
-## d.
+### d.
 
     Untuk bandul dengan simpangan kecil dan tanpa gesekan maka didapatkan bahwa
     
     \begin{equation}
-    \cos{\theta}=\frac{y}{1}=1
+    \cos{\theta}=1
     \end{equation}
     
     dan
     
     \begin{equation}
-    \sin{\theta}=\frac{x}{1}=\theta
+    \sin{\theta}=\theta
     \end{equation}
     
     Sehingga persamaan \eqref{dodox2} dan \eqref{dodoy2} dapat ditulis sebagai,
@@ -113,6 +113,10 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     Untuk $r$
     
     \begin{equation}
+    a_{r}=\ddot{r} - r\dot{\theta}^2
+    \end{equation}
+    
+    \begin{equation}
     \label{eqn:fr}
     \sum {F_r} = -mg\cos{\theta} + T = ma_r = m(\ddot{r} - r\dot{\theta}^2)
     \end{equation}
@@ -121,11 +125,44 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     
     \begin{equation}
     -mg \cos{\theta} + T = -ml\dot{\theta}^2 
-    end{equation}
+    \end{equation}
     
     dan
     
     \begin{equation}
+    \label{eqn:gerr}
+    \dot{\theta}^2 - frac{g\cos{\theta}}{l} = \frac{T}{lm}
+    \end{equation}
+    
+    Sementara, untuk $\theta$
+    
+    \begin{equation}
+    a_{\theta}=r\ddot{\theta} - 2\dot{r}\dot{\theta} = 
+    \end{equation}
+    
+    \begin{equation}
+    \label{eqn:fteta}
+    \sum{F_{\theta}} = -mg\sin{\theta} = m(r\ddot{\theta} - 2\dot{r}\dot{\theta})
+    \end{equation}
+    
+    Kemudian diterapkan bahwa $\dot{r}=0$ dan $r=l$ sehingga didapat,
+    
+    \begin{equation}
+    -g\sin{\theta} = l\ddot{\theta}
+    \end{equation}
+    
+    \begin{equation}
+    \label{gerthe}
+    \ddot{\theta}+\frac{g}{l}\sin{\theta}=0
+    \end{equation}
+    
+### b.
+    
+    
+    
+    
+    
+    
 
 
 
