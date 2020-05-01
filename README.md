@@ -584,8 +584,62 @@ Akan dilakukan proses algoritma genetika dengan iterasi sebanyak 10 kali dengan 
 	return val;
 	}
 	
-Yang menghasilkan dua pasang kromosom yaitu P1 (0010110) dengan nilai *fitness* 0,24025307 dan P2 (0010111) dengan nilai *fitness* 0,24025307.
+Yang menghasilkan sepasang kromosom yaitu P1 (0010110) dengan nilai *fitness* 0,24025307 dan P2 (0010111) dengan nilai *fitness* 0,24025307.
 	
+## No.5
+
+### Judul RBL
+PENYELESAIAN BEDA HINGGA UNTUK PERSAMAAN PANAS DAN GELOMBANG DENGAN MENGGUNAKAN SEGITIGA PASCAL
+
+### Tujuan
+Memberikan gambaran yang jelas tentang bagaimana segitiga Pascal digunakan dalam menyajikan pendekatan beda hingga untuk persamaan panas 
+dan persamaan gelombang
+
+### Perumusan Masalah
+Memberikan gambaran yang jelas tentang bagaimana segitiga Pascal digunakan dalam menyajikan pendekatan beda hingga untuk persamaan panas 
+dan persamaan gelombang
+
+### Usulan metode yang digunakan
+Penyelesaian eksak persamaan panas dan gelombang yang telah didapat, didalamnya memuat perhitungan integral fungsi syarat awal dan juga 
+perhitungan deret tak hingga. Jika fungsi syarat awal yang diberikan memiliki bentuk tertentu yang nilai integralnya tidak dapat 
+ditentukan dengan menggunakan teknik pengintegralan, maka nilai koefisien-koefisien pada bentuk penyelesaian eksak tersebut sulit 
+ditentukan secara pasti. Tambahan pula, dengan adanya perhitungan untuk deret tak hingga mengakibatkan nilai penyelesaian eksak akan 
+sulit diperoleh secara tepat. Oleh karena itu, perhitungan numerik dibutuhkan untuk memberikan suatu nilai penyelesaian dari masalah 
+persamaan panas dan gelombang yang diberikan. Metode numerik yang akan digunakan adalah metode beda hingga.
+
+### Perkiraan hasil yang diperoleh
+Pengamatan pada turunan-turunan orde-m yang telah diperoleh dengan menggunakan persamaan beda maju, beda pusat, dan beda mundur, 
+memberikan suatu hasil yang akan dapat membantu dalam pembentukkan turunan. Hasil tersebut adalah adanya suatu pola bilangan yang khas 
+pada koefisien-koefisien tiap turunan. Pola tersebut adalah pola bilangan dalam segitiga Pascal. 
+
+Persamaan panas dan persamaan gelombang adalah dua persamaan diferensial parsial yang masing-masing memodelkan proses atau kejadian 
+fisis, yaitu penghantaran panas dan perambatan gelombang. Kedua persamaan tersebut dapat diselesaikan secara eksak maupun pendekatan 
+dengan memperhatikan syarat awal dan syarat batas yang menyertainya. Secara eksak, penyelesaiannya diperoleh dengan menggunakan metode 
+pemisahan variabel (metode Fourier). Sedangkan secara pendekatan, penyelesaiannya diperoleh dengan metode beda hingga. Pada metode beda 
+hingga, persamaan panas dan persamaan gelombang diubah menjadi persamaan beda hingga (persamaan beda parsial) yang kemudian diselesaikan 
+untuk menghasilkan penyelesaian beda hingga. Persamaan beda hingga tersebut diperoleh dengan menggunakan formula beda hingga yang 
+dihasilkan dari pengaplikasian segitiga Pascal. Pengaplikasian segitiga Pascal tersebut didasarkan atas adanya kesamaan antara
+koefisien-koefisien pada turunan orde tinggi, yang dihasilkan oleh pendekatan beda
+hingga, dengan bilangan-bilangan pada segitiga Pascal
+
+### Analisis
+Setiap penyelesaian pada waktu tertentu dihubungkan oleh sebuah kurva yang membentuk gelombang, yang diasumsikan sebagai gelombang pada
+senar. Pada saat t = 0, senar ditarik ke atas yang tinggi tiap titik segmennya dinyatakan oleh fungsi syarat awal. Selanjutnya, senar dilepas dan pergerakan gelombang
+senar dievaluasi setiap 0.05 detik (∆t). Tinggi tiap segmen pada senar diperoleh dari
+perhitungan yang telah dilakukan. 
+Analisa ketakstabilan penyelesaian numerik pada kasus ini juga diperlihatkan
+oleh Gambar di bawah.
+
+![alt text](/5data.jpg)
+
+Gambar tersebut menganalisa perbandingan antara penyelesaian numerik dan penyelesaian eksak saat t = 0.28 dengan perhitungan 
+penyelesaian eksaknya sampai n = 200. Terlihat bahwa penyelesaian numeriknya sama sekali tidak mendekati penyelesaian eksaknya. Dengan 
+demikian, nilai penyelesaian numerik masalah persamaan gelombang, menjadi tidak sesuai dengan yang diharapkan (dengan
+penyelesaian eksak), jika kondisi kestabilan Courant tidak dipenuhi.
+
+### Referensi
+Sulistiono, Yohanes. (2008): Penyelesaian Beda Hingga Untuk Persamaan Panas dan Gelombang Dengan Menggunakan Segitiga Pascal. Skripsi Program Sarjana Sains Program Studi Matematika, Universitas Sanata Dharma Yogyakarta.
+http://repository.usd.ac.id/27017/2/043114016_Full.pdf
 
 
 	
