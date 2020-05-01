@@ -557,7 +557,7 @@ Akan dilakukan proses algoritma genetika dengan iterasi sebanyak 10 kali dengan 
 	return val;
 	}
 	
-
+Yang menghasilkan dua pasang kromosom yaitu P1 (0010110) dengan nilai *fitness* 0,24025307 dan P2 (0010111) dengan nilai *fitness* 0,24025307.
 	
 
 
