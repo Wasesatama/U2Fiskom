@@ -1,6 +1,11 @@
 # UAS Fisika Komputasi Kelas 01
 Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
-- 
+- Vincentius Aryo Wasesatama (10217024)
+- Muhammad Ridho Nurul Ihsan (10217063)
+- Alessandro Widjati (10217079)
+- Trian Verson Tumanan (10217091)
+- Tito Dwi S (10217094)
+- Juldan Umbu Riada (10217105)
 
 ## No.1
 ### a.
