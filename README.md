@@ -219,9 +219,36 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
 [Solusi numerik menggunakan algoritma euler] https://plotly.com/~alswidjati/7/#/
     
 ### d.
-    
-    Program dari algoritma euler ini dalam bahasa C++ adalah
+Program dari algoritma euler ini dalam bahasa C++ adalah
 
+	#include<iostream>
+	#include<cmath>
+
+	using namespace std;
+	//program hasil posisi sudut teta terhadap waktu dengan sudut teta kecil
+
+	const double pi = 3.14;
+	double t;
+	int i;
+	double tetahasil[5000]; //deklarasi array beukuran 5000 untuk menampung hasil posisi tetta
+	//digunakan gravitasi g = 9.8 ; panjang tali l = 2 ; waktu t = 0..4 dengan interval 0.001
+
+	double teta(double x){ //fungsi untuk memasukkan nilai solusi khusus posisi teta terhadap waktu
+	double f = 0.5236 * cos(2.2135*x); // bentuk solusi khususnya f = 0.5236cos(wt) //omega(w) = (g/l)^1/2 = 2.2135 
+	return f;
+	}
+
+	int main() {
+	t=0; //deklarasi waktu awal
+	i=0; //deklarasi initial number array
+		while (t<=4.000){
+		cout << "posisi saat t bernilai " << t << " adalah ";
+		tetahasil[i]= teta(t);
+		cout <<	tetahasil[i] << endl;
+		t = t + 0.001;
+		i = i + 1;
+		}
+	}
 
 ## No.3
 
