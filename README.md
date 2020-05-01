@@ -4,10 +4,10 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
 - Muhammad Ridho Nurul Ihsan (10217063)
 - Alessandro Widjati (10217079)
 - Trian Verson Tumanan (10217091)
-- Tito Dwi S (10217094)
+- Tito Dwi Syahputra (10217094)
 - Juldan Umbu Riada (10217105)
 
-## No.1
+## Nomor 1
 ### a.
 
     Pada sistem bandul berlaku hukum-hukum newton yang diantaranya adalah,
@@ -109,7 +109,7 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     \ddot{y} - \left( \frac{1}{l} \right) (\dot{x}^2 + \dot{y}^2) y = 0
     \end{equation}
     
-## No.2
+## Nomor 2
     
 ### a.
 
@@ -255,7 +255,7 @@ Program dari algoritma euler ini dalam bahasa C++ adalah
 		}
 	}
 
-## No.3
+## Nomor 3
 
 ### a.
 Dari tabel diplot scatter di excell dan kelas yang berbeda diberi warna berbeda untuk memberikan bantuan visual dari data set untuk 
@@ -312,7 +312,7 @@ Perlu dibatasi arsitektur ANN yang paling sederhana untuk menghindari overfittin
 informasi/data untuk melakukan training neuron. Akhirnya pembobotan yang terjadi pada data tidak tepat.
     
     
- ## No.4
+ ## Nomor 4
 
 ### a. 
 Fungsi untuk mengekstrak informasi beserta *parrent* dan *crossover* awalanya adalah
@@ -600,7 +600,7 @@ Akan dilakukan proses algoritma genetika dengan iterasi sebanyak 10 kali dengan 
 	
 Yang menghasilkan sepasang kromosom yaitu P1 (0010110) dengan nilai *fitness* 0,24025307 dan P2 (0010111) dengan nilai *fitness* 0,24025307.
 	
-## No.5
+## Nomor 5
 
 ### Judul RBL
 PENYELESAIAN BEDA HINGGA UNTUK PERSAMAAN PANAS DAN GELOMBANG DENGAN MENGGUNAKAN SEGITIGA PASCAL
