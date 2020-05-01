@@ -136,7 +136,7 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     
     \begin{equation}
     \label{eqn:gerr}
-    \dot{\theta}^2 - \frac{g\cos{\theta}}{l} = \frac{T}{lm}
+    \dot{\theta}^2 - \frac{g\cos{\theta}}{l} = \frac{-T}{lm}
     \end{equation}
     
     Sementara, untuk $\theta$
