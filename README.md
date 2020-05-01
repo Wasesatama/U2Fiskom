@@ -195,7 +195,31 @@ Ujian 2 Fisika Komputasi ITB dengan anggota kelompok :
     
 ### c.
 
-    Menggunakan algoritma numerik euler persamaan differensial \eqref{eqn:gerthe}
+    Menggunakan algoritma numerik euler dari persamaan differensial \eqref{eqn:gerthe}
+    
+    Sehingga menjadi bentuk $\dot{\theta}$ dan $\theta$ yaitu
+    
+    \begin{equation}
+    \label{vthe}
+    \dot{\theta}(t+\delta t)=\dot{\theta}(t) - \frac{-g}{l}\theta \delta t
+    \end{equation}
+    
+    dan
+    
+    \begin{equation}
+    \theta(t+\delta t)=\theta(t) + \dot{\theta}(t) \delta t
+    \end{equation}
+    
+    Nilai $\dot{\theta}(t)$ didapat dari \eqref{vethe}
+    
+    Untuk menunjukan solusi menggunakan algoritma euler dipilih nilai. $\theta(0)=5,759587$, $\dot{\theta}(0)=0$, $l=2m$, dan $g=9,8 \frac{m}{s}$. Dan menggunakan ploty nilai $\theta(t)$ dan $\dot{\theta}(t)$.
+    
+    Grafik dan gambar terdapat pada tautan dibawah
+    
+[Solusi numerik menggunakan algoritma euler] (https://plotly.com/~alswidjati/2/#plot)
+    
+### d.
+    
 
 
 
